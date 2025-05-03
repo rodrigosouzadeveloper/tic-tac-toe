@@ -1,54 +1,69 @@
-# React + TypeScript + Vite
+# Tic Tac Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um jogo clássico de Tic Tac Toe (Jogo da Velha) desenvolvido com React, utilizando Vite como ferramenta de build e Typescript para garantir a tipagem estática do código.
 
-Currently, two official plugins are available:
+![Imagem do Jogo Tic Tac Toe](assets/tictactoe_screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React:** Uma biblioteca JavaScript para construir interfaces de usuário.
+- **Vite:** Uma ferramenta de build extremamente rápida para aplicações web modernas.
+- **Typescript:** Um superset do JavaScript que adiciona tipagem estática.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Como Executar o Projeto
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Siga estas etapas para rodar o jogo localmente:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1.  **Clone o repositório:**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+    ```bash
+    git clone [https://github.com/rodrigosouzadeveloper/tic-tac-toe.git](https://github.com/rodrigosouzadeveloper/tic-tac-toe.git)
+    ```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+2.  **Navegue até o diretório do projeto:**
+
+    ```bash
+    cd tic-tac-toe
+    ```
+
+3.  **Instale as dependências:**
+
+    ```bash
+    npm install
+    # ou
+    yarn install
+    # ou
+    pnpm install
+    ```
+
+4.  **Inicie o servidor de desenvolvimento:**
+
+    ```bash
+    npm run dev
+    # ou
+    yarn dev
+    # ou
+    pnpm dev
+    ```
+
+    O jogo estará disponível em seu navegador, geralmente em `http://localhost:5173`.
+
+## Funcionalidades
+
+- Interface intuitiva para jogar o clássico Tic Tac Toe.
+- Indicação do jogador atual.
+- Detecção automática de vitória ou empate.
+- Opção para reiniciar o jogo.
+
+## Próximos Passos (Opcional)
+
+Aqui você pode adicionar ideias para futuras melhorias no projeto, como:
+
+- Implementar um sistema para armazenar placares.
+- Adicionar diferentes níveis de dificuldade (contra um computador com IA).
+- Melhorar a estilização visual.
+- Adicionar testes unitários e de integração.
+
+## Autor
+
+[Rodrigo Souza] ([Seu GitHub](https://github.com/rodrigosouzadeveloper))
