@@ -66,4 +66,4 @@ Aqui você pode adicionar ideias para futuras melhorias no projeto, como:
 
 ## Autor
 
-[Rodrigo Souza] ([Seu GitHub](https://github.com/rodrigosouzadeveloper))
+[Rodrigo Souza](https://github.com/rodrigosouzadeveloper)
