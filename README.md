@@ -2,7 +2,7 @@
 
 Um jogo clássico de Tic Tac Toe (Jogo da Velha) desenvolvido com React, utilizando Vite como ferramenta de build e Typescript para garantir a tipagem estática do código.
 
-![Imagem do Jogo Tic Tac Toe](assets/tictactoe_screenshot.png)
+![Imagem do Jogo Tic Tac Toe](https://github.com/rodrigosouzadeveloper/tic-tac-toe/blob/main/assets/tic-tac-toe.png)
 
 ## Tecnologias Utilizadas
 
